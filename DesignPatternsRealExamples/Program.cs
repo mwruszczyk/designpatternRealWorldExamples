@@ -5,6 +5,7 @@ using DesignPatternsRealExamples.Adapter;
 using DesignPatternsRealExamples.AbstractFactory;
 using DesignPatternsRealExamples.FactoryMethod;
 using DesignPatternsRealExamples.Prototype;
+using DesignPatternsRealExamples.Singleton;
 
 namespace DesignPatternsRealExamples
 {
@@ -17,7 +18,8 @@ namespace DesignPatternsRealExamples
             //var adapter = new AdapterRun(); //adapter
             //var abstractfactory = new AbstractFactoryRun(); //abstractfactory
             //var factoryMethod = new FactoryMethodRun(); //factorymethod
-              var prototype = new PrototypeRun(); //prototype
+            //var prototype = new PrototypeRun(); //prototype
+            //var singleton = new SingletonRun(); //singleton
         }
     }
 }
