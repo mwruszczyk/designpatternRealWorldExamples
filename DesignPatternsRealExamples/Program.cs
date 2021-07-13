@@ -6,6 +6,8 @@ using DesignPatternsRealExamples.AbstractFactory;
 using DesignPatternsRealExamples.FactoryMethod;
 using DesignPatternsRealExamples.Prototype;
 using DesignPatternsRealExamples.Composite;
+using DesignPatternsRealExamples.Decorator;
+
 
 namespace DesignPatternsRealExamples
 {
@@ -19,7 +21,8 @@ namespace DesignPatternsRealExamples
             //var abstractfactory = new AbstractFactoryRun(); //abstractfactory
             //var factoryMethod = new FactoryMethodRun(); //factorymethod
             //var prototype = new PrototypeRun(); //prototype
-             var  composite = new CompositeRun(); // composite
+            //var  composite = new CompositeRun(); // composite
+              var  decorator = new DecoratorRun();  //decorator
         }
     }
 }
