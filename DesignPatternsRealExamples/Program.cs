@@ -11,7 +11,7 @@ using DesignPatternsRealExamples.Facade;
 using DesignPatternsRealExamples.Flyweight;
 using DesignPatternsRealExamples.Proxy;
 using DesignPatternsRealExamples.ChainOfResponsibility;
-
+using DesignPatternsRealExamples.Command;
 
 namespace DesignPatternsRealExamples
 {
@@ -30,7 +30,8 @@ namespace DesignPatternsRealExamples
             //var facade = new FacadeRun();   //facade
             //var flyweight = new FlyweightRun(); //flyweight
             //var proxy = new ProxyRun();  //proxy
-              var chain = new ChainRun();    //ChainOfResponsibility 
+            //var chain = new ChainRun();    //ChainOfResponsibility 
+              var command = new CommandRun();  //Command
         }
     }
 }
