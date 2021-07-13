@@ -8,6 +8,7 @@ using DesignPatternsRealExamples.Prototype;
 using DesignPatternsRealExamples.Composite;
 using DesignPatternsRealExamples.Decorator;
 using DesignPatternsRealExamples.Facade;
+using DesignPatternsRealExamples.Flyweight;
 
 
 namespace DesignPatternsRealExamples
@@ -24,7 +25,8 @@ namespace DesignPatternsRealExamples
             //var prototype = new PrototypeRun(); //prototype
             //var composite = new CompositeRun(); // composite
             //var decorator = new DecoratorRun(); //decorator
-              var facade = new FacadeRun();   //facade
+            //var facade = new FacadeRun();   //facade
+              var flyweight = new FlyweightRun(); //flyweight
         }
     }
 }
