@@ -13,6 +13,7 @@ using DesignPatternsRealExamples.Proxy;
 using DesignPatternsRealExamples.ChainOfResponsibility;
 using DesignPatternsRealExamples.Command;
 using DesignPatternsRealExamples.Interpreter;
+using DesignPatternsRealExamples.Iterator;
 
 
 namespace DesignPatternsRealExamples
@@ -34,7 +35,8 @@ namespace DesignPatternsRealExamples
             //var proxy = new ProxyRun();  //proxy
             //var chain = new ChainRun();    //ChainOfResponsibility 
             //var command = new CommandRun();  //Command
-              var interpreter = new InterpreterRun(); //interpreter 
+            //var interpreter = new InterpreterRun(); //interpreter 
+              var iterator = new IteratorRun(); //iterator
         }
     }
 }
