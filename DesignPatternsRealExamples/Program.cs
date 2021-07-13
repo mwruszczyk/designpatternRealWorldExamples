@@ -12,6 +12,8 @@ using DesignPatternsRealExamples.Flyweight;
 using DesignPatternsRealExamples.Proxy;
 using DesignPatternsRealExamples.ChainOfResponsibility;
 using DesignPatternsRealExamples.Command;
+using DesignPatternsRealExamples.Interpreter;
+
 
 namespace DesignPatternsRealExamples
 {
@@ -31,7 +33,8 @@ namespace DesignPatternsRealExamples
             //var flyweight = new FlyweightRun(); //flyweight
             //var proxy = new ProxyRun();  //proxy
             //var chain = new ChainRun();    //ChainOfResponsibility 
-              var command = new CommandRun();  //Command
+            //var command = new CommandRun();  //Command
+              var interpreter = new InterpreterRun(); //interpreter 
         }
     }
 }
