@@ -10,6 +10,7 @@ using DesignPatternsRealExamples.Decorator;
 using DesignPatternsRealExamples.Facade;
 using DesignPatternsRealExamples.Flyweight;
 using DesignPatternsRealExamples.Proxy;
+using DesignPatternsRealExamples.ChainOfResponsibility;
 
 
 namespace DesignPatternsRealExamples
@@ -28,7 +29,8 @@ namespace DesignPatternsRealExamples
             //var decorator = new DecoratorRun(); //decorator
             //var facade = new FacadeRun();   //facade
             //var flyweight = new FlyweightRun(); //flyweight
-              var proxy = new ProxyRun();  //proxy
+            //var proxy = new ProxyRun();  //proxy
+              var chain = new ChainRun();    //ChainOfResponsibility 
         }
     }
 }
