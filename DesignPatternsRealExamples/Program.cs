@@ -14,6 +14,7 @@ using DesignPatternsRealExamples.ChainOfResponsibility;
 using DesignPatternsRealExamples.Command;
 using DesignPatternsRealExamples.Interpreter;
 using DesignPatternsRealExamples.Iterator;
+using DesignPatternsRealExamples.Mediator;
 
 
 namespace DesignPatternsRealExamples
@@ -36,7 +37,8 @@ namespace DesignPatternsRealExamples
             //var chain = new ChainRun();    //ChainOfResponsibility 
             //var command = new CommandRun();  //Command
             //var interpreter = new InterpreterRun(); //interpreter 
-              var iterator = new IteratorRun(); //iterator
+            //var iterator = new IteratorRun(); //iterator
+            var mediator = new MediatorRun();  //mediator
         }
     }
 }
