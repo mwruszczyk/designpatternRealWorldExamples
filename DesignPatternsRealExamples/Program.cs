@@ -16,6 +16,7 @@ using DesignPatternsRealExamples.Interpreter;
 using DesignPatternsRealExamples.Iterator;
 using DesignPatternsRealExamples.Mediator;
 using DesignPatternsRealExamples.Memento;
+using DesignPatternsRealExamples.Observer;
 
 
 namespace DesignPatternsRealExamples
@@ -40,7 +41,8 @@ namespace DesignPatternsRealExamples
             //var interpreter = new InterpreterRun(); //interpreter 
             //var iterator = new IteratorRun(); //iterator
             //var mediator = new MediatorRun();  //mediator
-              var memento = new MementoRun();   //Memento
+            //var memento = new MementoRun();   //Memento
+            var observer = new ObserverRun(); //Observer
             
         }
     }
