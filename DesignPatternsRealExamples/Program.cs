@@ -20,7 +20,7 @@ using DesignPatternsRealExamples.Observer;
 using DesignPatternsRealExamples.State;
 using DesignPatternsRealExamples.Strategy;
 using DesignPatternsRealExamples.TemplateMethod;
-
+using DesignPatternsRealExamples.Visitor;
 
 namespace DesignPatternsRealExamples
 {
@@ -48,7 +48,8 @@ namespace DesignPatternsRealExamples
             //var observer = new ObserverRun(); //Observer
             //var state = new StateRun();  //State
             //var strategy = new StrategyRun(); //Strategy
-              var template = new TemplateRun(); //TemplateMethod
+            //var template = new TemplateRun(); //TemplateMethod
+              var visitor = new VisitorRun();  //Visitor
             
         }
     }
