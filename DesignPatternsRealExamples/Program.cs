@@ -18,6 +18,7 @@ using DesignPatternsRealExamples.Mediator;
 using DesignPatternsRealExamples.Memento;
 using DesignPatternsRealExamples.Observer;
 using DesignPatternsRealExamples.State;
+using DesignPatternsRealExamples.Strategy;
 
 
 namespace DesignPatternsRealExamples
@@ -44,7 +45,8 @@ namespace DesignPatternsRealExamples
             //var mediator = new MediatorRun();  //mediator
             //var memento = new MementoRun();   //Memento
             //var observer = new ObserverRun(); //Observer
-            var state = new StateRun();  //State
+            //var state = new StateRun();  //State
+            var strategy = new StrategyRun();
             
         }
     }
