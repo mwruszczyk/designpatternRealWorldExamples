@@ -19,6 +19,7 @@ using DesignPatternsRealExamples.Memento;
 using DesignPatternsRealExamples.Observer;
 using DesignPatternsRealExamples.State;
 using DesignPatternsRealExamples.Strategy;
+using DesignPatternsRealExamples.TemplateMethod;
 
 
 namespace DesignPatternsRealExamples
@@ -46,7 +47,8 @@ namespace DesignPatternsRealExamples
             //var memento = new MementoRun();   //Memento
             //var observer = new ObserverRun(); //Observer
             //var state = new StateRun();  //State
-            var strategy = new StrategyRun();
+            //var strategy = new StrategyRun(); //Strategy
+              var template = new TemplateRun(); //TemplateMethod
             
         }
     }
